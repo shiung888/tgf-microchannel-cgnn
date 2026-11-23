@@ -1,0 +1,3 @@
+# keep the first-study files byte for byte
+original/** -text
+*.png binary
