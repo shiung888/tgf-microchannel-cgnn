@@ -1,0 +1,15 @@
+design,target,tested_on,R2_median,RMSE_median,MAPE_median,MedAPE_median,MaxAPE_median,R2_min,R2_max
+LHS,Nu_wall,OFAT sweeps,0.6193,1.674,13.79,9.815,158.9,0.3315,0.7285
+LHS,Nu_wall,independent LHS,0.996,0.03114,1.903,1.347,15.89,0.9899,0.9973
+LHS,Nu_wall,own held-out split,0.9903,0.05187,1.952,1.468,16,0.9729,0.9971
+LHS,Sxy_wall,OFAT sweeps,0.5609,1.976,12.04,8.72,175.2,0.4211,0.6719
+LHS,Sxy_wall,independent LHS,0.9983,0.06835,10.94,1.461,1934,0.988,0.9989
+LHS,Sxy_wall,own held-out split,0.9967,0.09065,7.26,1.366,244.2,0.9901,0.9984
+OFAT,Nu_wall,independent LHS,-4857,34.46,3195,2787,1.213e+04,-1.156e+04,-1688
+OFAT,Nu_wall,own held-out split,0.9919,0.2397,4.031,2.295,35.7,0.9803,0.9937
+OFAT,Sxy_wall,independent LHS,-343.9,30.36,5424,1002,1.036e+06,-757.7,-135.4
+OFAT,Sxy_wall,own held-out split,0.9893,0.3017,2.415,1.223,49.33,0.9839,0.9958
+OFAT+LHS,Nu_wall,independent LHS,0.8364,0.1987,12.09,9.596,86.07,0.7243,0.9473
+OFAT+LHS,Nu_wall,own held-out split,0.991,0.2558,8.254,4.296,102.9,0.9862,0.9972
+OFAT+LHS,Sxy_wall,independent LHS,0.9847,0.2028,36.47,4.531,8101,0.9568,0.9909
+OFAT+LHS,Sxy_wall,own held-out split,0.9944,0.2808,27.59,2.132,7086,0.9876,0.9966

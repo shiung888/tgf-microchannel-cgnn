@@ -1,0 +1,12 @@
+case,check,value
+m=-2,max |Eq16|,2.67e-08
+m=-2,max |Eq17|,2.06e-08
+m=-2,max |BC|,2.22e-16
+m=0,max |Eq16|,3.24e-08
+m=0,max |Eq17|,2.10e-08
+m=0,max |BC|,2.78e-17
+m=0.5,max |Eq16|,4.95e-08
+m=0.5,max |Eq17|,4.84e-08
+m=0.5,max |BC|,2.22e-16
+Newtonian limit,max |u - exact|,1.78e-12
+Newtonian limit,|Sxy - exact|,3.58e-13

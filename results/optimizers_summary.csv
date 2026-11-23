@@ -1,0 +1,25 @@
+design,target,method,R2_mean,RMSE_mean,RMSE_std,MAPE_mean,RMSE_independent_mean,CG_wins_of_10,CG_wins_independent_of_10,sample_gradients_mean
+OFAT,Nu_wall,CG,0.9906,0.2487,0.0450,3.96,35.8263,,,4.62e+06
+OFAT,Nu_wall,"Batch Adam, first study",0.7651,1.2389,0.2423,20.79,7.1693,10,0,1.26e+06
+OFAT,Nu_wall,"Batch Adam, tuned",0.9817,0.3498,0.0398,5.10,17.1066,10,0,4.64e+06
+OFAT,Nu_wall,"Mini-batch Adam, first study",0.9638,0.4921,0.0705,7.13,15.5688,10,0,1.26e+06
+OFAT,Nu_wall,"Mini-batch Adam, tuned",0.9862,0.3051,0.0345,4.40,14.2220,9,0,1.26e+06
+OFAT,Nu_wall,"SGD Adam, first study",0.9865,0.3003,0.0442,4.36,15.9698,8,0,1.26e+06
+OFAT,Sxy_wall,CG,0.9892,0.2945,0.0620,2.51,31.6982,,,4.66e+06
+OFAT,Sxy_wall,"Batch Adam, first study",0.7736,1.3431,0.2686,12.84,6.6683,10,0,1.26e+06
+OFAT,Sxy_wall,"Batch Adam, tuned",0.9854,0.3415,0.0637,2.77,18.8777,8,0,4.64e+06
+OFAT,Sxy_wall,"Mini-batch Adam, first study",0.9692,0.5036,0.0514,4.23,19.4119,10,0,1.26e+06
+OFAT,Sxy_wall,"Mini-batch Adam, tuned",0.9876,0.3176,0.0491,2.55,16.5555,8,0,1.26e+06
+OFAT,Sxy_wall,"SGD Adam, first study",0.9899,0.2868,0.0423,2.44,18.3608,3,0,1.26e+06
+LHS,Nu_wall,CG,0.9877,0.0548,0.0277,2.26,0.0347,,,4.46e+06
+LHS,Nu_wall,"Batch Adam, first study",0.7093,0.2714,0.0408,17.43,0.2294,10,10,1.26e+06
+LHS,Nu_wall,"Batch Adam, tuned",0.9794,0.0696,0.0354,2.91,0.0448,8,8,4.62e+06
+LHS,Nu_wall,"Mini-batch Adam, first study",0.9709,0.0833,0.0422,3.44,0.0496,9,9,1.26e+06
+LHS,Nu_wall,"Mini-batch Adam, tuned",0.9838,0.0563,0.0451,2.04,0.0313,6,5,1.26e+06
+LHS,Nu_wall,"SGD Adam, first study",0.9905,0.0451,0.0316,1.68,0.0266,3,3,1.26e+06
+LHS,Sxy_wall,CG,0.9961,0.0990,0.0340,23.22,0.0828,,,4.32e+06
+LHS,Sxy_wall,"Batch Adam, first study",0.8601,0.6047,0.0896,173.43,0.5861,10,10,1.26e+06
+LHS,Sxy_wall,"Batch Adam, tuned",0.9959,0.1016,0.0318,22.37,0.0775,7,5,4.62e+06
+LHS,Sxy_wall,"Mini-batch Adam, first study",0.9922,0.1430,0.0337,34.65,0.1302,9,8,1.26e+06
+LHS,Sxy_wall,"Mini-batch Adam, tuned",0.9965,0.0933,0.0298,20.11,0.0686,6,5,1.26e+06
+LHS,Sxy_wall,"SGD Adam, first study",0.9974,0.0807,0.0251,20.81,0.0608,2,3,1.26e+06
